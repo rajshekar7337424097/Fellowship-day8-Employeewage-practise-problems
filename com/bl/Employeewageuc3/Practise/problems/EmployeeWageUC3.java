@@ -10,12 +10,13 @@ public class EmployeeWageUC3 {
 
 		double empcheck = Math.floor(Math.random() * 10) % 2;
 
-		if (empcheck == IS_PRESENT)
+		if (empcheck == IS_PRESENT) {
 			emphrs=12;
-		else if (empcheck == IS_PART_TIME)
+		}else if  (empcheck == IS_PART_TIME) {
 			emphrs=8;
-		else
+		}else {
 			emphrs=0;
+		}
 
 		double empwage = emphrs * SALARY_PER_HOUR;
 		System.out.println("Employee has earned \t" + empwage + "\t $ dollor today");
