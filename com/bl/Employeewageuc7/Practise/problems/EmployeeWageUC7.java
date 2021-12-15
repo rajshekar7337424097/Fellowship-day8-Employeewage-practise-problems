@@ -32,10 +32,5 @@ public class EmployeeWageUC7 {
 	}
 	public static void main(String[] args) {
 		employeewage(20, 20, 100, 8);
-		
-	}
-
-	
-	
-
+		}
 }
